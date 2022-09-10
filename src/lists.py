@@ -50,11 +50,31 @@ match sys.argv[1]:
         times_three = []
         print_list(times_three)
 
+
+# multiplying with base python
+y=[]
+for i in x:
+    y.append(3.i)
+    print(y)
+
+# another approach
+[3.i for i in x]
+
+
     case "even":
         # Put your solution to the third exercise here
         even = []
         print_list(even)
 
+y=[]
+for i in x:
+    if i %2 <=0:
+    y.append(3.i)
+    print(y)
+
+[i for i in x if i %2 <= 0]
+
     case _:
         print(f"Incorrect command {sys.argv[1]}.", file=sys.stderr)
         sys.exit(1)
+
