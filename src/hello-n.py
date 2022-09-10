@@ -8,4 +8,6 @@ n = int(input("How many times should I loop? "))
 for x in range(n):
     print("Hello, World!")
 
+# range takes three arguments, where should it start, where should it end, and lastly step size. range(start,end,stepsize)
+
 

@@ -20,3 +20,16 @@ match command:
         # Implement the decoding here
         decoding = ""
         print(decoding)
+
+# getting the numbers of x
+x = "foobar"
+y = []
+for c in x:
+    y.append(hex(ord(c)))
+
+# list comprehension
+y = [hex(ord(c)) for c in x]
+
+
+
+
